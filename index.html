@@ -11,9 +11,9 @@
 <body>
     <header>
         <img src="https://i.postimg.cc/v8K2q7qJ/logo2.png" class='logo' alt="logo Joel Alfaro">
-        <div class="mob-menu">
+        <a class="mob-menu">
             <i class="fas fa-bars"></i>
-        </div>
+        </a>
         <nav>
             <ul>
                 <li><a href="#home" class='active'>Home</a></li>
@@ -52,35 +52,35 @@
 
     <section class="skills" id="skills">
         <h2 class="text"><span>S</span>kills</h2>
-        <div class="skills__content">
-            <div class="skills__card">
+        <div class="card_container">
+            <div class="card__ico">
                 <i class="fab fa-html5"></i>
                 <h3>HTML</h3>
             </div>
-            <div class="skills__card">
+            <div class="card__ico">
                 <i class="fab fa-css3-alt"></i>
                 <h3>CSS</h3>
             </div>
-            <div class="skills__card">
+            <div class="card__ico">
                 <i class="fab fa-js"></i>
                 <h3>JavaScript</h3>
             </div>
-            <div class="skills__card">
+            <div class="card__ico">
                 <i class="fab fa-sass"></i>
                 <h3>Sass</h3>
             </div>
-            <div class="skills__card">
+            <div class="card__ico">
                 <i class="fab fa-git-alt"></i>
                 <h3>Git</h3>
             </div>
         </div>
         <h3 class="text min">In Process</h3>
-        <div class="skills__content">
-            <div class="skills__card min">
+        <div class="card_container">
+            <div class="card__ico min">
                 <i class="fab fa-react"></i>
                 <h3>React</h3>
             </div>
-            <div class="skills__card min">
+            <div class="card__ico min">
                 <img src="https://i.postimg.cc/gJ52xp1J/redux.png" alt="redux">
                 <h3>Redux</h3>
             </div>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="btn">
                             <i class="fas fa-globe"></i>
-                            <a href="https://alfarojoel.github.io/SimplePages/Starbucks/" target='blank'>Website</a>
+                            <a href="https://alfarojoel.github.io/SimplePages/Starbucks/" target='_blank'>Website</a>
                         </div>
                     </div>
                     <p>Landing Page: HTML, CSS, JS</p>
@@ -119,27 +119,27 @@
                         </div>
                         <div class="btn">
                             <i class="fas fa-globe"></i>
-                            <a href="https://alfarojoel.github.io/SimplePages/Food/" target='blank'>Website</a>
+                            <a href="https://alfarojoel.github.io/SimplePages/Food/" target='_blank'>Website</a>
                         </div>
                     </div>
                     <p>Website: HTML, CSS, JS</p>
                 </div>
             </div>
             <div class="card">
-                <img class='card__img' src="https://i.postimg.cc/d3dDFQw8/page-Tuxdi.png" alt="page food portfolio joel">
+                <img class='card__img' src="https://i.postimg.cc/YqCnSL5p/najobg.png" alt="page food portfolio joel">
                 <div class="card__content">
-                    <h3>Landing</h3>
+                    <h3>Najo Developers</h3>
                     <div class="card__btn">
                         <div class="btn">
                             <i class="fab fa-github"></i>
-                            <a href="https://github.com/AlfaroJoel/SimplePages/tree/master/Tuxdi" target='_blank'>Repository</a>
+                            <a href="https://github.com/AlfaroJoel/Najo" target='_blank'>Repository</a>
                         </div>
                         <div class="btn">
                             <i class="fas fa-globe"></i>
-                            <a href="https://alfarojoel.github.io/SimplePages/Tuxdi/" target='blank'>Website</a>
+                            <a href="https://alfarojoel.github.io/Najo/" target='_blank'>Website</a>
                         </div>
                     </div>
-                    <p>Landing Page: HTML, CSS</p>
+                    <p>Website: HTML, SCSS, JS</p>
                 </div>
             </div>
         </div>
@@ -147,7 +147,21 @@
     </section>
 
     <section class="contact" id="contact">
-
+        <p class="text"><span>C</span>ontact</p>
+        <div class="card_container">
+            <a href='mailto:alfarojoelf@gmail.com' target='_blank' class="card__ico">
+                <i class="far fa-envelope"></i>
+                <h3>Mail</h3>
+            </a>
+            <a href='https://github.com/AlfaroJoel' target='_blank' class="card__ico">
+                <i class="fab fa-github"></i>
+                <h3>Follow Me</h3>
+            </a>
+            <a href="https://www.linkedin.com/in/joelalfaro1998/" target='_blank' class="card__ico">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+            </a>
+        </div>
     </section>
     <script type="text/javascript">
         window.addEventListener('scroll', ()=>{
