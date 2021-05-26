@@ -10,18 +10,20 @@
 </head>
 <body>
     <header>
-        <img src="https://i.postimg.cc/v8K2q7qJ/logo2.png" class='logo' alt="logo Joel Alfaro">
-        <a class="mob-menu">
-            <i class="fas fa-bars"></i>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="#home" class='active'>Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <nav class='navbar'>
+            <a href="#home"><img src="https://i.postimg.cc/v8K2q7qJ/logo2.png" class='logo' alt="logo Joel Alfaro"></a>
+            <ul class='nav-menu'>
+                <li class='nav__link'><a href="#home">Home</a></li>
+                <li class='nav__link'><a href="#about">About</a></li>
+                <li class='nav__link'><a href="#skills">Skills</a></li>
+                <li class='nav__link'><a href="#portfolio">Portfolio</a></li>
+                <li class='nav__link'><a href="#contact">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
@@ -47,7 +49,7 @@
                 Voluptatem quae delectus, minus inventore aut sint.<br> Distinctio nulla sint deleniti dolor eaque dicta rerum modi labore in
             </div>
         </div>
-        <a href="">Download CV</a>
+        <a href="" class='cv'>Download CV</a>
     </section>
 
     <section class="skills" id="skills">
@@ -163,11 +165,7 @@
             </a>
         </div>
     </section>
-    <script type="text/javascript">
-        window.addEventListener('scroll', ()=>{
-            const header = document.querySelector('header');
-            header.classList.toggle("black", window.scrollY > 400);
-        });
-    </script> 
+
+    <script src="./script.js"></script>
 </body>
 </html>
