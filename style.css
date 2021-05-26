@@ -170,14 +170,14 @@ body{
     right: 30px;
     font-weight: 600;
     padding: 15px 22px;
+    background: rgba(28, 43, 54, 0.616);
     border-radius: 10px;
-    background:rgba(28, 43, 54, 0.822);
     color: #fff;
     text-decoration: none;
     transition: all .5s;
 }
 .cv:hover{
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     background: #115868;
 }
 .circle{
@@ -328,7 +328,7 @@ body{
     color: #000;
 }
 .contact{
-    min-height: 91vh;
+    min-height: calc(100vh - 65px);
 }
 .fa-html5{
     color: #ec5300;

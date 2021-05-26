@@ -4,7 +4,7 @@ addEventListener('DOMContentLoaded', ()=> {
     const navMenu = document.querySelector(".nav-menu");
     const navLink = document.querySelectorAll(".nav__link");
     window.addEventListener('scroll', ()=>{
-        !navMenu.classList.contains('active') && navbar.classList.toggle("black", window.scrollY > 400);
+        !navMenu.classList.contains('active') && navbar.classList.toggle("black", window.scrollY > 230);
     });
     hamburger.addEventListener("click", () => {
         hamburger.classList.toggle("active");
