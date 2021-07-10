@@ -90,7 +90,7 @@ body{
     background-size: contain;
 }
 .home__background{
-    background: url('https://i.postimg.cc/8CKf5L1B/banner.jpg');
+    background: url('./Images/background_home.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -258,7 +258,7 @@ body{
     padding: 80px 0;
 }
 .portfolio__bg{
-    background: url('https://i.postimg.cc/HLFKfTx0/bg-portfolio3.jpg'); 
+    background: url('./Images/background_portfolio.jpg'); 
     background-attachment: fixed;
     background-position: right;
     background-size: cover;
