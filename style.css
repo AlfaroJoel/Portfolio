@@ -248,9 +248,9 @@ body{
     text-shadow: 5px 5px 15px#000;
 }
 .textadd{
-    color: rgba(22, 22, 22, 0.966);
+    color: rgba(211, 208, 208, 0.966);
     position: absolute;
-    bottom: 30px;
+    bottom: 42px;
     left: 20px;
     font-size: .8em;
 }
